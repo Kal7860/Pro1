@@ -1,0 +1,114 @@
+* {
+  margin: 1;
+  padding: 1;
+}
+body {
+  color: #444;
+  font-family: "Times New Roman";
+  border-top: 10px solid #1098ad;
+  position: relative;
+  line-height: 1.5;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font-size: 16px;
+}
+h1 {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+  color: goldenrod;
+}
+h2 {
+  background-color: orange;
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h2,
+h3 {
+  color: #1098ad;
+}
+li {
+  color: navy;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+}
+.rel_author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.rem {
+  list-style: none;
+}
+.post {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  background-color: blanchedalmond;
+}
+/* ul {
+  list-style: none;
+} */
+nav {
+  font-size: 18px;
+  text-align: center;
+}
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+
+  display: inline-block;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: olivedrab;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+/* nav a:active {
+  background-color: black;
+  font-style: italic;
+} */
+/* article {
+  margin-bottom: 60px;
+} */
+
+.main_header {
+  background-color: #706e6e;
+}
+p {
+  font-size: 18px;
+  font-family: "Times New Roman";
+  line-height: 1.5;
+  color: black;
+}
+aside {
+  background-color: #a5a2a2;
+  border-top: 5px solid #0d1e20;
+  border-bottom: 5px solid #0d1e20;
+}
+
+span {
+  background: yellow;
+}
+
+button {
+  font-size: 22px;
+  padding: 28px;
+  cursor: ponter;
+}
